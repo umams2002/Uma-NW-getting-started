@@ -1,0 +1,129 @@
+<!doctype html>
+
+<!-- 
+    
+    The above must be the first line in an html web page. 
+    This declaration helps browsers display the page correctly.
+
+    Below, we open our html tag. See the closing tag all the way at the bottom? 
+    Closing tags are like the opening tag but start with a backslash.
+
+    The html element has a 'lang' attribute that specifies the language of the page content. 
+    It's used by search engines and browsers. 
+
+    HTML is organized like a family tree except everyone has only one parent. 
+    (Except for the root element (html), which has no parent.)
+
+    The html element has two child elements: 
+    
+    - head (for meta information) and 
+    - body (for page content)
+
+    You can collapse sections in VS Code 
+    by mousing over a line number and clicking the arrow.  
+
+    Try to collapse the head section after reading it, to focus on the body.
+    Then expand the head again to see the whole structure.
+-->
+
+<html lang="en">
+
+<head>
+    <!--
+
+    The 'head' section is used for information about the webpage. 
+    Almost all pages will start with the first two tags below.
+
+    The first sets the character encoding (not all pages are written in English)
+    and the second sets the viewport so the page looks good on all size devices.
+
+    The 'title' tag is used to set the title of the page in the browser tab.
+
+    At the end of the head section, we link to style sheets.
+    First, we link to Bootstrap, a CSS framework that makes it easy to style our page.
+    Then, we link to our own custom CSS file for additional styling.
+
+    -->
+
+    <!-- TODO: Change the tab title to include YOUR name Dashboard. -->
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Case Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+    <!-- 
+
+    The 'body' section is for content that appears on the webpage. 
+
+    We often start with a navbar or nav tags. 
+    'nav' is a semantic HTML element that typically contains navigation links 
+    'header' is a semantic HTML element that typically contains the heading of the page or section 
+    'section', 'aside', and 'article' are semantic HTML elements that help describe the structure of the content
+
+    Navigation links appear as clickable text that will take you to the specified URLs when clicked 
+    Your apps can link to public pages for easy reference, or local pages for more complex apps.
+   
+    Several elements have 'class' attributes. 
+    Classes are used to group elements for CSS styling or JavaScript logic.
+    For instance, elements with the class 'sidebar' will all receive the 
+    same styles defined for .sidebar in our CSS file.
+    
+    The 'input' elements are used to gather user input 
+    Each input element has an 'id' attribute to identify that specific element in our JavaScript code.
+
+    At the end of the body section, we use 'script' tags to link to JavaScript files.
+    In this file, we first link to Bootstrap's JavaScript file.
+    Then we link to our own custom logic in our own main.js JavaScript file.
+
+    -->
+
+    <!--  TODO: Modify the links to reflect YOUR GitHub username.-->
+    <nav>
+        <a href="https://github.com/denisecase">About</a>
+        <a href="https://github.com/denisecase/cintel-2">GitHub</a>
+        <a href="https://denisecase.github.io/cintel-2/">App</a>
+  
+    </nav>
+
+
+    <!--  TODO: Use your name Dashboard in the top level heading (h1) on the page.-->
+
+    <header>
+        <h1>Case Dashboard</h1>
+    </header>
+
+    <section class="container">
+        <aside class="sidebar">
+            <h2>Sidebar Panel</h2>
+            <hr>
+            <h3>User Interaction Here</h3>
+            <p>Enter your name:</p>
+            <input type="text" id="nameInput" placeholder="Your Name">
+            <p>Enter your favorite language(s):</p>
+            <input type="text" id="languageInput" placeholder="Favorite Programming Language(s)">
+            <hr>
+        </aside>
+        <article class="main">
+            <h2>Main Panel with Reactive Output</h2>
+            <hr>
+            <p id="welcomeOutput"></p>
+            <p id="insightsOutput"></p>
+        </article>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
