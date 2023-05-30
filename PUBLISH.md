@@ -25,3 +25,5 @@ If you make changes to your code and want to update your published website:
 3. Enter a brief commit message describing your changes.
 4. Change the "Commit" button dropdown to "Commit and Push" to send your changes back to GitHub.
 5. GitHub will automatically rebuild and update your published website with the latest changes.
+
+![Deploy a Client-Side Web App with GitHub Pages](images/deploy-app-with-GitHub-Pages.PNG)
