@@ -71,8 +71,6 @@ With your repo folder open in VS Code:
 1. Important: Enter a brief commit message describing your changes.
 1. Change the "Commit" button dropdown to "Commit and Push" to send your changes back to GitHub.
 
------
-
 ### Test the Web Page
 
 Use File Explorer (Windows) or Finder (Mac) to navigate to your repo folder and open index.html file with your favorite browser. I use Chrome, but most browsers should work fine. 
@@ -98,6 +96,11 @@ Use CTRL f to find the TODO items.
 Then, open the TODO Tree view icon (added to the icon column on the left) to see all the TODO items in your project.
 
 -----
+
+## 5. Publish Your App with GitHub Pages
+
+GitHub lets us publish our client-side web apps for free with GitHub Pages. 
+Read [PuBLISH.md] to learn how to make your app available on the web. 
 
 ## Reminders
 
