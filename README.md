@@ -1,6 +1,6 @@
 # Continuous Intelligence and Interactive Analytics - Getting Started
 
-- GitHub Pages Website: [umamms2002](https://denisecase.github.io/cintel-01-getting-started/)
+- GitHub Pages Website: [umams2002](https://denisecase.github.io/cintel-01-getting-started/)
 - GitHub Repository: [umams2002](https://github.com/denisecase/cintel-01-getting-started)
 - Author: [Uma M Subramanian](https://github.com/denisecase)
 
